@@ -8,7 +8,7 @@ const corsOptions = {
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
 app.use(cors(corsOptions));
-
+//
 // app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
